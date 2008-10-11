@@ -22,13 +22,6 @@
 
 #include "photopreviewdlg.h"
 
-static const int MAX_SPEED = 50;
-static const int MIN_SPEED = 0;
-
-bool nocase_compare(char c1, char c2) {
-  return (tolower(c1) == tolower(c2));
-}
-
 PhotoPreviewDlg::PhotoPreviewDlg(QWidget *parent) : QDialog(parent) {
 
   ftw = false;
